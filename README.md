@@ -1,0 +1,3 @@
+# DAC-for-In-memory-Computation
+This proposal states a particular idea for implementing a Digital to Analog Converter (DAC) which has application in column wise conversion of digital codes for SRAM with in-memory Multiply and Accumulate (MAC) computation (1). The design features the use of Delay Locked Loop (DLL) that generates well defined delayed signals that are used to generate timing signals used by a Time to Analog Circuit to produce the analog output. The architecture offers the opportunity to scale the no. of channels with minimal increase in area as the delayed signals are global and shared with every channel.
+Implemented circuits and screenshots are given 
